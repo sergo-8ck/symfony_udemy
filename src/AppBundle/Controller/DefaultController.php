@@ -15,7 +15,10 @@ class DefaultController extends Controller
      */
     public function indexAction()
     {
+//        $this->container->getParameter('api_key');
+
         return $this->render('@App/default/index.html.twig');
+
     }
 
 	/**
