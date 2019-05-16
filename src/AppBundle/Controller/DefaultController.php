@@ -43,8 +43,6 @@ class DefaultController extends Controller
             return $this->redirectToRoute('feedback');
         }
 
-
-
     	return $this->render('@App/default/feedback.html.twig', [
     	    'feedback_form' => $form->createView()
         ]);
